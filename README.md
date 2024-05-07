@@ -27,7 +27,7 @@ Google Colab with NVCC Compiler
 13.	Free Device Memory: Finally, free the device memory that was allocated for the matrices.
 ## PROGRAM:
 
-```
+```cuda
 !pip install git+https://github.com/andreinechaev/nvcc4jupyter.git
 %load_ext nvcc4jupyter
 
@@ -126,6 +126,8 @@ __global__ void matrixMultiply(int *a, int *b, int *c, int size)
     }
     c[row * size + col] = sum;
 }
+```
+```cuda
 int main()
 {
     int a[SIZE][SIZE], b[SIZE][SIZE], c[SIZE][SIZE];
