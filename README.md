@@ -1,4 +1,4 @@
-# PCA-EXP-5-MATRIX MULTIPLICATION USING CUDA AY-23-24
+# PCA EXP-5 MATRIX MULTIPLICATION USING CUDA AY-23-24
 <h3>NAME : Sam Israel D</h3>
 <h3>REG NO : 212222230128</h3>
 <h3>EX NO : 5</h3>
@@ -84,7 +84,8 @@ Google Colab with NVCC Compiler
         exit(1);                                                               \
     }                                                                          \
 }
-
+```
+```cuda
 #define CHECK_CUSPARSE(call)                                                   \
 {                                                                              \
     cusparseStatus_t err;                                                      \
