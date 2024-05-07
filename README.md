@@ -73,7 +73,8 @@ Google Colab with NVCC Compiler
         exit(1);                                                               \
     }                                                                          \
 }
-
+```
+```cuda
 #define CHECK_CUFFT(call)                                                      \
 {                                                                              \
     cufftResult err;                                                           \
@@ -84,8 +85,7 @@ Google Colab with NVCC Compiler
         exit(1);                                                               \
     }                                                                          \
 }
-```
-```cuda
+
 #define CHECK_CUSPARSE(call)                                                   \
 {                                                                              \
     cusparseStatus_t err;                                                      \
