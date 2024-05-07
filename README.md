@@ -127,8 +127,7 @@ __global__ void matrixMultiply(int *a, int *b, int *c, int size)
     }
     c[row * size + col] = sum;
 }
-```
-```cuda
+
 int main()
 {
     int a[SIZE][SIZE], b[SIZE][SIZE], c[SIZE][SIZE];
