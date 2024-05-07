@@ -1,8 +1,8 @@
-# PCA-EXP-5-MATRIX MULTIPLICATION USING CUDA AY-23-24
-<h3>NAME : SANJAY S</h3>
-<h3>REG NO : 212222230132</h3>
+# PCA EXP-5 MATRIX MULTIPLICATION USING CUDA AY-23-24
+<h3>NAME : Sam Israel D</h3>
+<h3>REG NO : 212222230128</h3>
 <h3>EX NO : 5</h3>
-<h3>DATE : 7/5/2024</h3>
+<h3>DATE : 07/05/2024</h3>
 <h1> <align=center> MATRIX MULTIPLICATION USING CUDA </h3>
           Implement Matrix Multiplication using GPU.</h3>
 
